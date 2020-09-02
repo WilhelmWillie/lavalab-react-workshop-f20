@@ -1,0 +1,34 @@
+/* Input header */
+.inputHeader-inputWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.inputHeader-inputWrapper input[type=text] {
+  flex-basis: 60%;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #CCCCCC;
+}
+
+.inputHeader-inputWrapper label {
+  color: #555555;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.inputHeader-inputWrapper button {
+  flex-basis: 20%;
+  padding: 16px;
+  background: #3E8A54;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+/* Input header */
+.error {
+  border: 1px solid #C73939;
+  background: #D26969;
+  padding: 16px;
+  border-radius: 6px;
+  margin: 16px 0 0;
+}
+
+.error p {
+  margin: 0;
+  text-align: center;
+  color: #410909;
+}

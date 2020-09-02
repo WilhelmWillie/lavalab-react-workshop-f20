@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #384B5C;
+}
+
+main {
+  max-width: 600px;
+  width: 90%;
+  margin: 64px auto;
+  background: #FFFFFF;
+  padding: 42px 32px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 5px rgba(0,0,0,0.15);
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
