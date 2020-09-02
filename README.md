@@ -10,6 +10,7 @@ If you have any questions, comments, or feedback, reach out to me on [Twitter](h
 ## Learning Outcomes
 
 My goal is that after this workshop, you'll have a better understanding of:
+
 [ ] What React is and what it's capable of
 [ ] JSX and ES6 syntax
 [ ] React components, props and state, and the component lifecycle
