@@ -5,16 +5,17 @@ Hey there! This is a repo for a workshop ran by me for [USC LavaLab](https://usc
 If you have any questions, comments, or feedback, reach out to me on [Twitter](https://twitter.com/wilhelm_willie) or via e-mail at wilhelmwillie@gmail.com
 
 **Slides:** Link TBD
+
 **Recording:** Link TBD
 
 ## Learning Outcomes
 
 My goal is that after this workshop, you'll have a better understanding of:
 
-[ ] What React is and what it's capable of
-[ ] JSX and ES6 syntax
-[ ] React components, props and state, and the component lifecycle
-[ ] How to use hooks to manage data and breathe life into your React app
+- [ ] What React is and what it's capable of
+- [ ] JSX and ES6 syntax
+- [ ] React components, props and state, and the component lifecycle
+- [ ] How to use hooks to manage data and breathe life into your React app
 
 With limited time, it's okay if you don't fully understand everything presented in this workshop, but I hope at minimum this session is a net positive for you and your future development endeavors.
 
