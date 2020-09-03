@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 import './styles/InputHeader.css';
 
@@ -13,6 +14,9 @@ function InputHeader(props) {
     handleInputChange, inputState, handleConvertClick
   } = props;
 
+  // Get the currency from the URL (localhost:3000/:currency)
+  const { currency } = useParams();
+
   return (
     <header className="inputHeader">
       <h1><span role="img" aria-label="Money bag">💰</span>Currency Exchange</h1>
@@ -20,7 +24,12 @@ function InputHeader(props) {
       <div className="inputHeader-inputWrapper">
         <input type="text" onChange={handleInputChange} value={inputState} placeholder="100.0" />
 
-        <label>$USD</label>
+        <label>
+          {
+            // Default to USD if currency isn't available (for some reason)
+            currency.toUpperCase() || 'USD'
+          }
+        </label>
 
         <button onClick={handleConvertClick}>Convert</button>
       </div>

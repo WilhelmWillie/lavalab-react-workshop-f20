@@ -33,13 +33,13 @@ function Results(props) {
   return (
     <div className="results">
       <ResultsCell
-        label="🇯🇵 JPY"
-        amount={results['JPY']}
+        label="🇺🇸 USD"
+        amount={results['USD']}
       />
 
       <ResultsCell
-        label="🇪🇺 EUR"
-        amount={results['EUR']}
+        label="🇯🇵 JPY"
+        amount={results['JPY']}
       />
 
       <ResultsCell
@@ -48,8 +48,8 @@ function Results(props) {
       />
 
       <ResultsCell
-        label="🇭🇰 HKD"
-        amount={results['HKD']}
+        label="🇮🇳 INR"
+        amount={results['INR']}
       />
     </div>
   )

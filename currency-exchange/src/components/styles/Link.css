@@ -1,0 +1,17 @@
+.link {
+  padding: 18px;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+  margin-top: 16px;
+  background: #FFFFFF;
+  color: #555555;
+  font-weight: 600;
+  transition: 0.15s all;
+  display: block;
+}
+
+.link:hover {
+  transform: scale(1.025);
+}
