@@ -4,7 +4,7 @@ Hey there! This is a repo for a workshop ran by me for [USC LavaLab](https://usc
 
 If you have any questions, comments, or feedback, reach out to me on [Twitter](https://twitter.com/wilhelm_willie) or via e-mail at wilhelmwillie@gmail.com
 
-**Slides:** Link TBD
+**Slides:** https://docs.google.com/presentation/d/1TvilznnaHuzua_U07MzHpFXSmMuknHlSVUB6sITkZOc/edit?usp=sharing
 
 **Recording:** Link TBD
 
@@ -41,10 +41,26 @@ Node is a JavaScript runtime that lets you run JavaScript outside of the browser
 My video recording that accompanies this workshop should cover everything in this README, the slides, and more. This README simply acts as supplementary material to help guide you if you get lost or need to refer to something. 
 
 In the past, I've built projects from scratch during workshops. However, this time I'm switching it up by splitting this workshop into 3 sections:
-* Introduction to React (10 mins) - Run through my slides and introduce some core concepts before we dive into code
-* Live coding demo (10 mins) - I'll build a basic app that illustrates the core concepts of React and various implementation details
-* Completed project walkthrough (10 mins) - Next, I'll walk through a slightly more complicated and polished app that showcases the concepts I just explained once again but in a slightly more complex way
+* Introduction to React (15 mins) - Run through my slides and introduce some core concepts before we dive into code. Watch + listen while going over my slides to understand some of the core concepts you need to understand for React development.
+* Live coding demo (15 mins) - I'll build a basic app that illustrates the core concepts of React and various implementation details. We'll be building a small app that keeps track of score for teams.
+* Completed project walkthrough (15 mins) - Next, I'll walk through a slightly more complicated and polished app that showcases the concepts I just explained once again but in a slightly more complex way. This app will be a currency exchange app that does currency conversions for you for certain currencies.
 
-Then to close out my workshop, I'll leave behind some challenges for you to complete after the workshop which build on top of the completed project. Hopefully after my workshop, you'll be able to expand on what I've built and put your newfound React knowledge to the test.
+To close out my workshop, I'll leave behind some challenges for you to complete after the workshop which build on top of the completed project. Hopefully after my workshop, you'll be able to expand on what I've built and put your newfound React knowledge to the test.
 
 **Why this format?** Instead of walking you through how to build a project from scratch, line-by-line, I decided to maximize the time I have by explaining how things work with working examples instead of getting caught up in the granular line-by-line details. My hope is that learning from these examples will help reinforce the concepts better so you can extend/modify them to your needs 
+
+## Live Coding Demo
+
+TODO: write explanation
+
+## Completed Project README
+
+TODO: write README for currency exchange
+
+## Further Reading
+
+TODO: add links
+
+## Questions, Comments?
+
+Unfortunately, because these are pre-recorded, I can't answer your questions or comments live. If you have any questions, don't hesitate to reach out to me on [Twitter](https://twitter.com/wilhelm_willie), via e-mail at wilhelmwillie@gmail.com, or on the LavaLab Slack org. I'm more than willing to help you out with any React questions or if you want to sit down and debug some code, I'm more than willing to help with that as well.
