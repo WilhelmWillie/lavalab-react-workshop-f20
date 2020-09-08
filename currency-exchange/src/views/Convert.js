@@ -25,7 +25,8 @@ function Convert() {
   const [error, setError] = useState(false);
 
   // useEffect runs whenever anything in the dependency array gets changed
-  // An empty array [] means the function will only run on mount
+  // An empty array [] or a dependency that never changes
+  // means the function will only run on mount
   // More here: https://reactjs.org/docs/hooks-effect.html
   useEffect(() => {
     const getRates = async function() {
