@@ -317,6 +317,7 @@ TODO (coming 9/15): a deeper look into different parts of the code
 * [Introducing hooks](https://reactjs.org/docs/hooks-intro.html)
 * [Intro to React](https://reactjs.org/tutorial/tutorial.html)
 * [Another introduction to hooks](https://daveceddia.com/intro-to-hooks/)
+* [React Native workshop done by me in the Fall of 2019 for LavaLab](https://github.com/WilhelmWillie/lavalab-react-native-workshop-f19) - this workshop is a bit outdated but if you understood React, you might be able to wrangle with this workshop. React Native is a library built off of React that enables you to write cross-platform mobile apps. Definitely recommend looking into if you want to build a quick prototype for your mobile app!
 
 ## Questions, Comments?
 
