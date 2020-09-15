@@ -61,7 +61,7 @@ npx create-react-app demo
 
 Feel free to replace `demo` with a folder name of your choosing. `npx` is a tool provided by Node & npm that lets you run packages without needing to install packages globally. This is useful for CLI tools like `create-react-app`. Installing will take a second so just give it a second to generate and install. 
 
-Next, you'll need to install `yarn`, another package manager that is built and used by Facebook (npm and yarn are very similar, you can read more about theme [here](https://stackshare.io/stackups/npm-vs-yarn)). To do so, run `npm install -g yarn`.
+Next, you'll need to install `yarn`, another package manager that is built and used by Facebook (npm and yarn are very similar, you can read more about them [here](https://stackshare.io/stackups/npm-vs-yarn)). To do so, run `npm install -g yarn`.
 
 Once yarn is installed, navigate into your project and start the React app by running
 
@@ -295,7 +295,10 @@ TODO: write README for currency exchange
 
 ## Further Reading
 
-TODO: add links
+* [React Hooks — advantages and comparison to older reusable logic approaches in short](https://medium.com/@mateuszroth/react-hooks-advantages-and-comparison-to-older-reusable-logic-approaches-in-short-f424c9899cb5)
+* [Introducing hooks](https://reactjs.org/docs/hooks-intro.html)
+* [Intro to React](https://reactjs.org/tutorial/tutorial.html)
+* [Another introduction to hooks](https://daveceddia.com/intro-to-hooks/)
 
 ## Questions, Comments?
 
