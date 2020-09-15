@@ -291,7 +291,25 @@ While this app isn't a super exciting one, I hope it was enough to teach you som
 
 ## Completed Project README
 
-TODO: write README for currency exchange
+In this repository, there's a `currency-exchange` project you can open and run to learn more about how to build a more complex application. This application is a currency-exchange app that supports converting USD to JPY, GBP, INR and vice versa. This app will hook into an API (https://api.exchangeratesapi.io/latest?base=USD) so that rates are always up-to-date. To run it, first clone this repository by running `git clone https://github.com/WilhelmWillie/lavalab-react-workshop-f20.git` in a folder of your choice.
+
+Then run `cd currency-exchange` to enter the project folder.
+
+Run `yarn install` to install all of the required dependencies for the project. Once that's complete, run `yarn start`. This will start the app at `localhost:3000` where you can play around with the app. The homepage is a simple menu that lets you choose what to currency to convert. Once you select an option, you'll be taken to a convert screen where you can input an amount and get results at the click of a button.
+
+While not a super complex app, this is definitely a step above the demo app we created in the last section. I decided to not go step-by-step on this section because I feel like it might be worth more seeing a bigger project at a semi-completed stage so you can learn from examples and by tinkering with the code.
+
+Here's a quick overview of the many files in this project and what they are responsible for:
+
+* `App.js` like our last app, this is where we define the main App component. Our main App component will house a `<Router>`, which is part of the react-router-dom library. [React router](https://reactrouter.com/) is a React library that enables React apps to have routing. In this component, we define our "routes" so `localhost:3000/` shows a `Home` view component and `localhost:3000/inr`, `localhost:3000/gbp`, `localhost:3000/jpy`, `localhost:3000/usd` show a `Convert` view component.
+* `views/Home.js` a simple view component that doesn't take in props or use state. Simply renders the home menu with some links
+* `views/Convert.js` a more complex view component that has lots of state and hooks. We'll do a dive on this later.
+* `components/Error.js`, `components/Link.js` reusable components that are pretty simple, they don't have state and just consume props
+* `components/InputHeader.js`, slightly more complex application that takes in a few functions as props so we can tie state to an input textbox and call a function when the Convert button is clicked
+* `components/Results.js`, does not hold state, instead defers management to its parent component. Good example of decomposing a component into smaller components as we define a `ResultsCell` component here 
+* `components/styles/*.css` all of our CSS. I've gone through and done the CSS for you so you don't have to worry about styling. Feel free to modify the CSS to your liking if you choose
+
+TODO (coming 9/15): a deeper look into different parts of the code
 
 ## Further Reading
 
