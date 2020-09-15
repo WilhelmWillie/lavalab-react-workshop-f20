@@ -49,7 +49,13 @@ To close out my workshop, I'll leave behind some challenges for you to complete 
 
 **Why this format?** Instead of walking you through how to build a project from scratch, line-by-line, I decided to maximize the time I have by explaining how things work with working examples instead of getting caught up in the granular line-by-line details. My hope is that learning from these examples will help reinforce the concepts better so you can extend/modify them to your needs 
 
-## Live Coding Demo
+## Part 1: Slides
+
+**Slides:** https://docs.google.com/presentation/d/1TvilznnaHuzua_U07MzHpFXSmMuknHlSVUB6sITkZOc/edit?usp=sharing
+
+**Recording:** https://lavalearn.webflow.io/development/technical-workshops/react-workshop
+
+## Part 2: Live Coding Demo
 
 Again, make sure you have the right versions of Node and npm installed. If you are seeing the right verisons when you run `node --version` and `npm --version`, then you're good to go and can start following along. We're going to be building a basic score board application that keeps track of 2 players' scores. First player to get a score of 10 is declared the winner.
 
@@ -289,7 +295,7 @@ function Player(props) {
 
 While this app isn't a super exciting one, I hope it was enough to teach you some core concepts that you can apply to future projects. Now, in the next section, we'll dive deeper into `currency-exchange`, a sample project provided in this repository. Here we can see a slightly more complex application that uses hooks more in-depth.
 
-## Completed Project README
+## Part 3: Currency Exchange
 
 In this repository, there's a `currency-exchange` project you can open and run to learn more about how to build a more complex application. This application is a currency-exchange app that supports converting USD to JPY, GBP, INR and vice versa. This app will hook into an API (https://api.exchangeratesapi.io/latest?base=USD) so that rates are always up-to-date. To run it, first clone this repository by running `git clone https://github.com/WilhelmWillie/lavalab-react-workshop-f20.git` in a folder of your choice.
 
@@ -302,12 +308,12 @@ While not a super complex app, this is definitely a step above the demo app we c
 Here's a quick overview of the many files in this project and what they are responsible for:
 
 * `App.js` like our last app, this is where we define the main App component. Our main App component will house a `<Router>`, which is part of the react-router-dom library. [React router](https://reactrouter.com/) is a React library that enables React apps to have routing. In this component, we define our "routes" so `localhost:3000/` shows a `Home` view component and `localhost:3000/inr`, `localhost:3000/gbp`, `localhost:3000/jpy`, `localhost:3000/usd` show a `Convert` view component.
-* `views/Home.js` a simple view component that doesn't take in props or use state. Simply renders the home menu with some links
-* `views/Convert.js` a more complex view component that has lots of state and hooks. We'll do a dive on this later.
 * `components/Error.js`, `components/Link.js` reusable components that are pretty simple, they don't have state and just consume props
 * `components/InputHeader.js`, slightly more complex application that takes in a few functions as props so we can tie state to an input textbox and call a function when the Convert button is clicked
 * `components/Results.js`, does not hold state, instead defers management to its parent component. Good example of decomposing a component into smaller components as we define a `ResultsCell` component here 
 * `components/styles/*.css` all of our CSS. I've gone through and done the CSS for you so you don't have to worry about styling. Feel free to modify the CSS to your liking if you choose
+* `views/Home.js` a simple view component that doesn't take in props or use state. Simply renders the home menu with some links
+* `views/Convert.js` a more complex view component that has lots of state and hooks. Let's dive into how Convert works:
 
 TODO (coming 9/15): a deeper look into different parts of the code
 
